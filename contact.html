@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head><link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Richard S</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Richard S</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="organizations.html">Organizations</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="nav-toggle-6" aria-label="Toggle navigation" class="nav-toggle">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page contact-page">
+      <h1>Contact</h1>
+      <p>If you'd like to reach me, use any of the options below or send a note with the form.</p>
+
+      <ul class="contact-list">
+        <li>Phone: <a href="tel:+17577592118">(757) 759-2118</a></li>
+        <li>Email: <a href="mailto:Richard.Shelar62@gmail.com">Richard.Shelar62@gmail.com</a></li>
+        <li>Instagram: <a href="https://instagram.com/twizzy.rich" target="_blank" rel="noopener">@twizzy.rich</a></li>
+      </ul>
+
+      <form id="contact-form" class="contact-form" onsubmit="return handleFormSubmit(event)">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required placeholder="Your name" />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="you@example.com" />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Write a short message..."></textarea>
+
+        <button class="btn primary" type="submit">Send Message</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year-6"></span> Richard S</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
