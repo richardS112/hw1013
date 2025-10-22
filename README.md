@@ -7,5 +7,8 @@ The following features are implemented in the project:
 - [ ] I used chat gpt to code me a website using my favorite colors and make it mario themed using the font on the letters and colors in the background.
 - [ ] I was able to create function links to access my social medias and contact info
 - [ ] <img width="1853" height="878" alt="image" src="https://github.com/user-attachments/assets/a519bc79-7331-4e22-b298-6e7a213d1a76" />
+## This is where you would send me a email or contact me using my number, email, or through the website.
 - [ ] <img width="1899" height="874" alt="image" src="https://github.com/user-attachments/assets/1fb20259-59f3-41fb-b288-5ef09a933e53" />
+## Here is some information about me and what I am studying at virginia State universtiy.
+
 
